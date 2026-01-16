@@ -2,9 +2,7 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/mamba-org/devcontainer-features/micromamba:1": {
-      "channels": "bioconda",
-      "envFile": "env.yml",
-      "envName": "trgt-tutorial"
+      "channels": "bioconda"
     }
   }
 }
