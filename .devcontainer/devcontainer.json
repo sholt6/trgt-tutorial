@@ -1,8 +1,8 @@
-{
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+
     "features": {
         "ghcr.io/mamba-org/devcontainer-features/micromamba:1": {
-
+            "envName": "trgt-tutorial",
+            "channels": "conda-forge bioconda",
+            "packages" : "pbmm2 bcftools samtools trgt"
         }
     }
-}
