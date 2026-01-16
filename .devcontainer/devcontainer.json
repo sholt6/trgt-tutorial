@@ -4,7 +4,7 @@
         "ghcr.io/mamba-org/devcontainer-features/micromamba:1": {
             "envName": "trgt-tutorial",
             "channels": "conda-forge bioconda",
-            "packages": "pbbm2 bcftools samtools trgt"
+            "packages": "pbmm2 bcftools samtools trgt"
         }
     }
 }
